@@ -36,26 +36,26 @@ void setup()
 void loop()
 {
   s1 = 0;
-  for (s1 = 1; s1 <= 89; s1 += 1) {
+  for (s1 = 1; s1 <= 135; s1 += 1) {
     servo_1.write(s1);
     servo_2.write(s1);
     servo_3.write(s1);
-    delay(20); // Wait for 20 millisecond(s)
+    delay(15); // Wait for 20 millisecond(s)
   }
-  for (s1 = 1; s1 >= 89; s1 -= 1) {
+  for (s1 = 1; s1 >= 135; s1 -= 1) {
     servo_1.write(s1);
     servo_2.write(s1);
     servo_3.write(s1);
   }
 
   s4 = 0;
-  for (s4 = 1; s4 <= 89; s4 += 1) {
+  for (s4 = 1; s4 <= 180; s4 += 1) {
     servo_4.write(s4);
     servo_5.write(s4);
     servo_6.write(s4);
-    delay(20); // Wait for 20 millisecond(s)
+    delay(25); // Wait for 20 millisecond(s)
   }
-  for (s4 = 1; s4 >= 89; s4 -= 1) {
+  for (s4 = 1; s4 >= 180; s4 -= 1) {
     servo_4.write(s4);
     servo_5.write(s4);
     servo_6.write(s4);
